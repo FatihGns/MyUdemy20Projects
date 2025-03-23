@@ -1,0 +1,15 @@
+﻿CategoryId serial primary key, CategoryName VarChar(100) not null)
+
+
+ Create Table ToDoLists
+ (
+ToDoListId serial primary key,
+Title VarChar(200) not null,
+ Description Varchar(1000),
+ status bit,
+ Priority VarChar(50),
+CategoryId int,
+ Foreign Key(CategoryId) references Categories(CategoryId) On Delete Cascade
+)
+
+SELECT todolistid,title,description,status,priority,categoryname From todolists Inner JOIN categories on todolists.categoryid=categories.categoryid

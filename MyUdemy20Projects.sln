@@ -13,9 +13,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project4_EntityFramewoerCod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project5_DapperNorthwind", "Project5_DapperNorthwind\Project5_DapperNorthwind.csproj", "{4EF1E136-EE07-4096-AE05-915978A9D4D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project6_ApiWeather", "Project6_ApiWeather\Project6_ApiWeather.csproj", "{CB6559A8-68D0-49E4-8D9D-9C4B3D6493A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project6_ApiWeather", "Project6_ApiWeather\Project6_ApiWeather.csproj", "{CB6559A8-68D0-49E4-8D9D-9C4B3D6493A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project7_ApiWeatherConsume", "Project7_ApiWeatherConsume\Project7_ApiWeatherConsume.csproj", "{38FE6FEB-658E-4989-8B9F-504CBC5124C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project7_ApiWeatherConsume", "Project7_ApiWeatherConsume\Project7_ApiWeatherConsume.csproj", "{38FE6FEB-658E-4989-8B9F-504CBC5124C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project8_RapidApiCurrency", "Project8_RapidApiCurrency\Project8_RapidApiCurrency.csproj", "{E36F298A-6FEB-4C21-B98D-BB568E7AE4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project9_MongoDbOrde", "Project9_MongoDbOrde\Project9_MongoDbOrde.csproj", "{E391DA3A-EF26-4E10-95AE-4920BDEA7180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project10_PostgreSQLToDoListApp", "Project10_PostgreSQLToDoListApp\Project10_PostgreSQLToDoListApp.csproj", "{66132512-0A66-4DF7-A44E-20127EE22363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project11_TriggerOrderStock", "Project11_TriggerOrderStock\Project11_TriggerOrderStock.csproj", "{A571C3D6-5D58-4D1C-9FDE-DA39CECD8208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project12_JwtToken", "Project12_JwtToken\Project12_JwtToken.csproj", "{E90C5534-ED97-4671-80F6-1564AC7619E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_13WeatherApp", "Project_13WeatherApp\Project_13WeatherApp.csproj", "{AAE27C36-638D-474A-A049-6DF1B33AA958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +63,30 @@ Global
 		{38FE6FEB-658E-4989-8B9F-504CBC5124C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FE6FEB-658E-4989-8B9F-504CBC5124C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FE6FEB-658E-4989-8B9F-504CBC5124C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36F298A-6FEB-4C21-B98D-BB568E7AE4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36F298A-6FEB-4C21-B98D-BB568E7AE4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36F298A-6FEB-4C21-B98D-BB568E7AE4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36F298A-6FEB-4C21-B98D-BB568E7AE4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E391DA3A-EF26-4E10-95AE-4920BDEA7180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E391DA3A-EF26-4E10-95AE-4920BDEA7180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E391DA3A-EF26-4E10-95AE-4920BDEA7180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E391DA3A-EF26-4E10-95AE-4920BDEA7180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66132512-0A66-4DF7-A44E-20127EE22363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66132512-0A66-4DF7-A44E-20127EE22363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66132512-0A66-4DF7-A44E-20127EE22363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66132512-0A66-4DF7-A44E-20127EE22363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A571C3D6-5D58-4D1C-9FDE-DA39CECD8208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A571C3D6-5D58-4D1C-9FDE-DA39CECD8208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A571C3D6-5D58-4D1C-9FDE-DA39CECD8208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A571C3D6-5D58-4D1C-9FDE-DA39CECD8208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90C5534-ED97-4671-80F6-1564AC7619E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90C5534-ED97-4671-80F6-1564AC7619E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90C5534-ED97-4671-80F6-1564AC7619E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90C5534-ED97-4671-80F6-1564AC7619E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE27C36-638D-474A-A049-6DF1B33AA958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE27C36-638D-474A-A049-6DF1B33AA958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE27C36-638D-474A-A049-6DF1B33AA958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE27C36-638D-474A-A049-6DF1B33AA958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
